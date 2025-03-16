@@ -1,32 +1,36 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-    "game": "UltimateMarvelVsCapcom3",
-    "creator": "ManualTeam",
-
-    "filler_item_name": "Free Character of Your Choice",
-
-    "starting_items": [
-        {
-            "items": ["Ryu", "Akuma"]
-        },
-        {
-            "item_categories": ["Left Side"],
-            "random": 1
-        },
-        {
-            "items": ["Wolverine", "Storm", "Phoenix"],
-            "random": 1
-        },
-        {
-            "item_categories": ["Trash"]
-        },
-        {
-            "random": 3
-        },
-        {
-            "items": ["Deadpool"],
-            "yaml_option": ["start_with_deadpool"]
-        }
-    ],
-    "death_link": false
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "HP2PC",
+  "creator": "Lucille",
+  "filler_item_name": "Trans Rights!",
+  "starting_items": [
+    {
+      "items": ["Advanced Tech"],
+      "yaml_option": [
+        "Use_Glitched_Progression"
+      ]
+    },
+    {
+      "items": ["Alohomora", "Flipendo", "Rictusempra"],
+      "random": 1,
+      "yaml_option": [
+        "Use_Faster_Start"
+      ]
+    },
+    {
+      "item_categories": ["Levels"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Spells", "Navigation"],
+      "random": 2
+    },
+    {
+      "item_categories": ["Spells", "Navigation", "Levels"],
+      "random": 1,
+      "yaml_option": [
+        "Use_Faster_Start"
+      ]
+    }
+  ]
 }

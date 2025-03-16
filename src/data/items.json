@@ -1,409 +1,301 @@
-{
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
-    "data": [
-        {
-            "name": "Jill",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "value": {"star": 5, "coins": 3},
-            "progression": true
-        },
-        {
-            "name": "Shuma-Gorath",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "value": {"star": 5},
-            "progression": true
-        },
-        {
-            "name": "Nemesis T-Type",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "value": {"coins": 7},
-        "progression": true
-        },
-        {
-            "name": "Firebrand",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Strider Hiryu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Phoenix Wright",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Nova",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Ghost Rider",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Hawkeye",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Doctor Strange",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Chris",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Arthur",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Frank West",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Vergil",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Iron Fist",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Rocket Raccoon",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Captain America",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Dormammu",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Wesker",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Zero",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Ryu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Dante",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Deadpool",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Wolverine",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Iron Man",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Doctor Doom",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Morrigan",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Tron",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Chun-Li",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Trish",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "X-23",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Storm",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Thor",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "M.O.D.O.K.",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Felicia",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Spencer",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Akuma",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Viewtiful Joe",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Spider-Man",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Sentinel",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Hulk",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Super-Skrull",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Hsien-Ko",
-            "category": [
-                "Characters",
-                "Left Side",
-                "Trash"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Haggar",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "C. Viper",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Amaterasu",
-            "category": [
-                "Characters",
-                "Left Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Phoenix",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Magneto",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "She-Hulk",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        },
-        {
-            "name": "Taskmaster",
-            "category": [
-                "Characters",
-                "Right Side"
-            ],
-            "progression": true
-        }    ]
-
-}
+[
+  {
+    "count": 1,
+    "name": "Jumping",
+    "category": [
+      "Navigation"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Boosting",
+    "category": [
+      "Navigation",
+      "Glitches"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Advanced Tech",
+    "category": [
+      "Glitches"
+    ],
+    "progression": true
+  },
+  {
+    "count": 3,
+    "name": "Progressive Quidditch",
+    "category": [
+      "Minigames",
+      "Quidditch"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Flipendo",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Alohomora",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lumos",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rictusempra",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Skurge",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Diffindo",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Spongify",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "MimbleWimble",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Expelliarmus",
+    "category": [
+      "Spells"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rictusempra Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Skurge Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Diffindo Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Spongify Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Gryffindor Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "AOL Demo Entry",
+    "category": [
+      "Levels",
+      "AOL Demo"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Willow Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bicorn Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Boomslang Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Gardens Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Slytherin Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Forest Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chamber Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": "10",
+    "name": "Progressive Duelling",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "GWC Challenge Entry",
+    "category": [
+      "Levels"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Great Hall Entry",
+    "category": [],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Free Potion",
+    "category": [
+      "Gifts"
+    ],
+    "filler": true
+  },
+  {
+    "count": "30",
+    "name": "Free 50 Beans",
+    "category": [
+      "Cardsanity_filler",
+      "Gifts"
+    ],
+    "filler": true
+  },
+  {
+    "count": "7",
+    "name": "Free 100 Beans",
+    "category": [
+      "Gifts"
+    ],
+    "filler": true
+  },
+  {
+    "count": "5",
+    "name": "Free 300 Beans",
+    "category": [
+      "Gifts"
+    ],
+    "filler": true
+  },
+  {
+    "count": "2",
+    "name": "Difficulty Increase",
+    "category": [
+      "Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "0",
+    "name": "Dobby's Sock",
+    "category": [],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": "50",
+    "name": "Bronze Card",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "progression": true
+  },
+  {
+    "count": "40",
+    "name": "Silver Card",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "progression": true
+  }
+]

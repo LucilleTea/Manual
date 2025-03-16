@@ -1,332 +1,2417 @@
-{
-	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
-    "data": [
-        {
-            "name": "Beat the Game - Ryu",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Ryu|"
-        },
-        {
-            "name": "Beat the Game - Chun-Li",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Chun-Li|"
-        },
-        {
-            "name": "Beat the Game - Akuma",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Akuma|"
-        },
-
-        {
-            "name": "Beat the Game - Jill",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Jill| and {ItemValue(star:5)}"
-        },
-        {
-            "name": "Beat the Game - Shuma-Gorath",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Shuma-Gorath|",
-            "hint_entrance": "Unlock Shuma-Gorath"
-        },
-        {
-            "name": "Beat the Game - Nemesis T-Type",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Nemesis T-Type|"
-        },
-        {
-            "name": "Beat the Game - Firebrand",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Firebrand|"
-        },
-        {
-            "name": "Beat the Game - Strider Hiryu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Strider Hiryu|"
-        },
-        {
-            "name": "Beat the Game - Phoenix Wright",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Phoenix Wright|"
-        },
-        {
-            "name": "Beat the Game - Nova",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Nova|"
-        },
-        {
-            "name": "Beat the Game - Ghost Rider",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Ghost Rider|"
-        },
-        {
-            "name": "Beat the Game - Hawkeye",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hawkeye|"
-        },
-        {
-            "name": "Beat the Game - Doctor Strange",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Strange|"
-        },
-        {
-            "name": "Beat the Game - Chris",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Chris|"
-        },
-        {
-            "name": "Beat the Game - Arthur",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Arthur|"
-        },
-        {
-            "name": "Beat the Game - Frank West",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Frank West|"
-        },
-        {
-            "name": "Beat the Game - Vergil",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Vergil|"
-        },
-        {
-            "name": "Beat the Game - Iron Fist",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Fist|"
-        },
-        {
-            "name": "Beat the Game - Rocket Raccoon",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Rocket Raccoon|"
-        },
-        {
-            "name": "Beat the Game - Captain America",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Captain America|"
-        },
-        {
-            "name": "Beat the Game - Dormammu",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Dormammu|"
-        },
-        {
-            "name": "Beat the Game - Wesker",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Wesker|"
-        },
-        {
-            "name": "Beat the Game - Zero",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Zero|"
-        },
-        {
-            "name": "Beat the Game - Dante",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Dante|"
-        },
-        {
-            "name": "Beat the Game - Deadpool",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Deadpool| or {YamlEnabled(free_deadpool)}"
-        },
-        {
-            "name": "Beat the Game - Wolverine",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Wolverine|"
-        },
-        {
-            "name": "Beat the Game - Iron Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Man|"
-        },
-        {
-            "name": "Beat the Game - Doctor Doom",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Doom|"
-        },
-        {
-            "name": "Beat the Game - Morrigan",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Morrigan|"
-        },
-        {
-            "name": "Beat the Game - Tron",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Tron|"
-        },
-        {
-            "name": "Beat the Game - Trish",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Trish|"
-        },
-        {
-            "name": "Beat the Game - X-23",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|X-23|"
-        },
-        {
-            "name": "Beat the Game - Storm",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Storm|"
-        },
-        {
-            "name": "Beat the Game - Thor",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Thor|"
-        },
-        {
-            "name": "Beat the Game - M.O.D.O.K.",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|M.O.D.O.K.|"
-        },
-        {
-            "name": "Beat the Game - Felicia",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Felicia|"
-        },
-        {
-            "name": "Beat the Game - Spencer",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Spencer|"
-        },
-        {
-            "name": "Beat the Game - Viewtiful Joe",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Viewtiful Joe|"
-        },
-        {
-            "name": "Beat the Game - Spider-Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Spider-Man|",
-            "prehint": true
-        },
-        {
-            "name": "Beat the Game - Sentinel",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Sentinel|"
-        },
-        {
-            "name": "Beat the Game - Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hulk|"
-        },
-        {
-            "name": "Beat the Game - Super-Skrull",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Super-Skrull|"
-        },
-        {
-            "name": "Beat the Game - Hsien-Ko",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Hsien-Ko|"
-        },
-        {
-            "name": "Beat the Game - Haggar",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Haggar|"
-        },
-        {
-            "name": "Beat the Game - C. Viper",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|C. Viper|"
-        },
-        {
-            "name": "Beat the Game - Amaterasu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Amaterasu|"
-        },
-        {
-            "name": "Beat the Game - Phoenix",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Phoenix|"
-        },
-        {
-            "name": "Beat the Game - Magneto",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Magneto|"
-        },
-        {
-            "name": "Beat the Game - She-Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|She-Hulk|"
-        },
-        {
-            "name": "Beat the Game - Taskmaster",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Taskmaster|"
-        },
-
-        {
-            "name": "We Saved the World!",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": [
-                "Jill",
-                "Shuma-Gorath",
-                "Nemesis T-Type",
-                "Firebrand",
-                "Strider Hiryu",
-                "Phoenix Wright",
-                "Nova",
-                "Ghost Rider",
-                "Hawkeye",
-                "Doctor Strange",
-                "Chris",
-                "Arthur",
-                "Frank West",
-                "Vergil",
-                "Iron Fist",
-                "Rocket Raccoon",
-                "Captain America",
-                "Dormammu",
-                "Wesker",
-                "Zero",
-                "Dante",
-                "Deadpool",
-                "Wolverine",
-                "Iron Man",
-                "Doctor Doom",
-                "Morrigan",
-                "Tron",
-                "Trish",
-                "X-23",
-                "Storm",
-                "Thor",
-                "M.O.D.O.K.",
-                "Felicia",
-                "Spencer",
-                "Viewtiful Joe",
-                "Spider-Man",
-                "Sentinel",
-                "Hulk",
-                "Super-Skrull",
-                "Hsien-Ko",
-                "Haggar",
-                "C. Viper",
-                "Amaterasu",
-                "Phoenix",
-                "Magneto",
-                "She-Hulk",
-                "Taskmaster"
-            ]
-        },
-        {
-            "name": "Marvel%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|@Right Side:all|"
-        },
-        {
-            "name": "Capcom%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|@Left Side:all|"
-        },
-        {
-            "name": "Stars%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "{ItemValue(star:10)} and {ItemValue(coins:10)}"
-        }
+[
+  {
+    "name": "Have all of Dobby's Socks",
+    "region": "Hub",
+    "category": [],
+    "requires": "|Dobby's Sock:100%|",
+    "place_item": [
+      "Great Hall Entry"
     ]
-}
-
+  },
+  {
+    "region": "Rictusempra",
+    "name": "Rictusempra Complete",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Rictusempra| AND |Flipendo| AND (|Boosting| OR |Jumping|)"
+  },
+  {
+    "name": "Rictusempra All Stars",
+    "region": "Rictusempra",
+    "category": [
+      "Challenge Stars"
+    ],
+    "requires": "|Rictusempra| AND |Flipendo| AND |Lumos| AND (|Boosting| OR |Jumping|)"
+  },
+  {
+    "name": "Skurge Complete",
+    "region": "Skurge",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Skurge| AND ((|Jumping| AND |Advanced Tech|) OR (|Flipendo| AND |Boosting|) OR (|Jumping| AND |Flipendo| AND |Lumos|))"
+  },
+  {
+    "name": "Skurge All Stars",
+    "region": "Skurge",
+    "category": [
+      "Challenge Stars"
+    ],
+    "requires": "|Skurge| AND |Flipendo| AND |Lumos| AND |Alohomora| AND |Jumping|"
+  },
+  {
+    "region": "Diffindo",
+    "name": "Diffindo Complete",
+    "category": [
+      "Levels"
+    ],
+    "requires": "((|Jumping| OR |Diffindo|) AND |Boosting| AND |Flipendo| AND |Rictusempra|) OR (|Jumping| AND |Diffindo| AND |Flipendo| AND |Rictusempra| AND |Skurge| AND |Lumos|)"
+  },
+  {
+    "name": "Diffindo All Stars",
+    "region": "Diffindo",
+    "category": [
+      "Challenge Stars"
+    ],
+    "requires": "|Jumping| AND |Diffindo| AND |Flipendo| AND |Rictusempra| AND |Skurge| AND |Lumos| And |Alohomora|"
+  },
+  {
+    "name": "Spongify Complete",
+    "region": "Spongify",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Jumping| AND |Spongify| AND (|Boosting| OR (|Skurge| AND |Flipendo|))"
+  },
+  {
+    "name": "Spongify All Stars",
+    "region": "Spongify",
+    "category": [
+      "Challenge Stars"
+    ],
+    "requires": "|Jumping| AND |Spongify| AND |Skurge| AND |Flipendo| AND |Alohomora|"
+  },
+  {
+    "name": "Gryffindor Complete",
+    "region": "Gryffindor",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Jumping| AND |Diffindo| AND |Alohomora| AND |Spongify| AND (|Flipendo| OR |Boosting|)"
+  },
+  {
+    "name": "Gryffindor All Stars",
+    "region": "Gryffindor",
+    "category": [
+      "Challenge Stars"
+    ],
+    "requires": "|Jumping| AND |Diffindo| AND |Alohomora| AND |Spongify| AND (|Flipendo| OR |Boosting|)"
+  },
+  {
+    "name": "AOL Demo Complete",
+    "region": "AOL Demo",
+    "category": [
+      "Levels",
+      "AOL Demo"
+    ],
+    "requires": "|Alohomora| AND |Spongify| AND |Rictusempra| AND |Flipendo| AND |Jumping|"
+  },
+  {
+    "name": "AOL Demo All Stars",
+    "region": "AOL Demo",
+    "category": [
+      "Challenge Stars",
+      "AOL Demo"
+    ],
+    "requires": "|Alohomora| AND |Spongify| AND |Rictusempra| AND |Flipendo| AND |Jumping|"
+  },
+  {
+    "name": "Willow Complete",
+    "region": "Willow",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Lumos| AND (|Boosting| OR (|Flipendo| AND |Jumping|))"
+  },
+  {
+    "name": "Bicorn Complete",
+    "region": "Bicorn",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Alohomora| AND |Jumping| AND |Skurge| AND |Flipendo| AND |Rictusempra|"
+  },
+  {
+    "name": "Boomslang Complete",
+    "region": "Boomslang",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Diffindo| AND (|Jumping| OR |Boosting|)"
+  },
+  {
+    "name": "Gardens Complete",
+    "region": "Gardens",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Diffindo| AND ((|Boosting| AND |Rictusempra| AND |Flipendo|) OR |Jumping|) AND |Alohomora|"
+  },
+  {
+    "name": "Slytherin Complete",
+    "region": "Slytherin",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Flipendo| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|)"
+  },
+  {
+    "name": "Forest Complete",
+    "region": "Forest",
+    "category": [
+      "Levels"
+    ],
+    "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|)) AND |Diffindo| AND |Rictusempra| AND |Spongify| AND |Flipendo|"
+  },
+  {
+    "name": "Chamber 1 Complete",
+    "region": "Chamber 1",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Skurge| AND |Spongify| AND |Diffindo| AND |Flipendo| AND (|Jumping| OR |Boosting|) AND (|Lumos| OR |Advanced Tech|)"
+  },
+  {
+    "name": "Chamber 2 Complete",
+    "region": "Chamber 2",
+    "category": [
+      "Levels"
+    ],
+    "requires": "|Skurge| AND |Spongify| AND |Diffindo| AND |Flipendo| AND ((|Jumping| AND |Rictusempra|) OR |Boosting|)"
+  },
+  {
+    "name": "10 Bronze Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Bronze Card:10|"
+  },
+  {
+    "name": "20 Bronze Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Bronze Card:20|"
+  },
+  {
+    "name": "30 Bronze Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Bronze Card:30|"
+  },
+  {
+    "name": "40 Bronze Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Bronze Card:40|"
+  },
+  {
+    "name": "50 Bronze Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Bronze Card:50|"
+  },
+  {
+    "name": "10 Silver Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Silver Card:10|"
+  },
+  {
+    "name": "20 Silver Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Silver Card:20|"
+  },
+  {
+    "name": "30 Silver Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Silver Card:30|"
+  },
+  {
+    "name": "40 Silver Cards",
+    "region": "Hub",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Silver Card:40|"
+  },
+  {
+    "name": "11 Gold Cards",
+    "region": "GWC Challenge",
+    "category": [
+      "Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Flipendo| AND |Alohomora|"
+  },
+  {
+    "name": "GWC Challenge Complete",
+    "region": "GWC Challenge",
+    "category": [
+      "Levels"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Flipendo| AND |Alohomora|"
+  },
+  {
+    "name": "Buy Nimbus 2001",
+    "region": "Hub",
+    "category": [
+      "Shopping"
+    ],
+    "requires": "(|Progressive Duelling:10| AND |Expelliarmus| AND (|Rictusempra| OR |MimbleWimble|)) OR (|@Levels:10| AND |@Spells:7| AND |@Navigation|)"
+  },
+  {
+    "name": "Buy Quidditch Armor",
+    "region": "Hub",
+    "category": [
+      "Shopping"
+    ],
+    "requires": "(|Progressive Duelling:10| AND |Expelliarmus| AND (|Rictusempra| OR |MimbleWimble|)) OR (|@Levels:7| AND |@Spells:5| AND |@Navigation|)"
+  },
+  {
+    "region": "Hub",
+    "name": "Duel 1",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR (|MimbleWimble| AND |Expelliarmus|)) AND |Progressive Duelling:1|"
+  },
+  {
+    "name": "Duel 2",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR (|MimbleWimble| AND |Expelliarmus|)) AND |Progressive Duelling:2|"
+  },
+  {
+    "name": "Duel 3",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR (|MimbleWimble| AND |Expelliarmus|)) AND |Progressive Duelling:3|"
+  },
+  {
+    "name": "Duel 4",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR (|MimbleWimble| AND |Expelliarmus|)) AND |Progressive Duelling:4|"
+  },
+  {
+    "name": "Duel 5",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR (|MimbleWimble| AND |Expelliarmus|)) AND |Progressive Duelling:5|"
+  },
+  {
+    "name": "Duel 6",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR |MimbleWimble|) AND |Expelliarmus| AND  |Progressive Duelling:6|"
+  },
+  {
+    "name": "Duel 7",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR |MimbleWimble|) AND |Expelliarmus| AND  |Progressive Duelling:7|"
+  },
+  {
+    "name": "Duel 8",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR |MimbleWimble|) AND |Expelliarmus| AND  |Progressive Duelling:8|"
+  },
+  {
+    "name": "Duel 9",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR |MimbleWimble|) AND |Expelliarmus| AND |Progressive Duelling:9|"
+  },
+  {
+    "name": "Duel 10",
+    "region": "Hub",
+    "category": [
+      "Minigames",
+      "Duels"
+    ],
+    "requires": "(|Rictusempra| OR |MimbleWimble|) AND |Expelliarmus| AND |Progressive Duelling:10|"
+  },
+  {
+    "name": "Quidditch - Beat Hufflepuff",
+    "region": "Quidditch",
+    "category": [
+      "Minigames",
+      "Quidditch"
+    ],
+    "requires": "|Progressive Quidditch:1|",
+    "dont_place_item": "|Progressive Quidditch|"
+  },
+  {
+    "name": "Quidditch - Beat Ravenclaw",
+    "region": "Quidditch",
+    "category": [
+      "Minigames",
+      "Quidditch"
+    ],
+    "requires": "|Progressive Quidditch:2|",
+    "dont_place_item": "|Progressive Quidditch|"
+  },
+  {
+    "name": "Quidditch - Beat Slytherin",
+    "region": "Quidditch",
+    "category": [
+      "Minigames",
+      "Quidditch"
+    ],
+    "requires": "|Progressive Quidditch:3|"
+  },
+  {
+    "name": "Great Hall",
+    "region": "Great Hall",
+    "victory": true,
+    "category": [],
+    "requires": ""
+  },
+  {
+    "name": "Brew a Potion",
+    "region": "Hub",
+    "category": [
+      "Small Tasks"
+    ],
+    "requires": "|Flipendo| OR |Alohomora| OR (|Progressive Duelling| AND |Rictusempra|)"
+  },
+  {
+    "name": "Defeat Peeves",
+    "region": "Skurge",
+    "category": [
+      "Bosses"
+    ],
+    "requires": "|Skurge| AND |Flipendo|"
+  },
+  {
+    "name": "Talk to Malfoy (Slytherin or Quidditch)",
+    "region": "Hub",
+    "category": [
+      "Bosses"
+    ],
+    "requires": "(|Slytherin Entry| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Lumos|) OR |Progressive Quidditch:3|"
+  },
+  {
+    "name": "Defeat Aragog",
+    "region": "Aragog",
+    "category": [
+      "Bosses"
+    ],
+    "requires": "|Diffindo| AND |Rictusempra|"
+  },
+  {
+    "name": "Defeat Snake",
+    "region": "Chamber Snake",
+    "category": [
+      "Bosses"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Talk to Snape",
+    "region": "Hub",
+    "category": [
+      "Help"
+    ],
+    "requires": "",
+    "place_item_category": ["Gifts"]
+  },
+  {
+    "name": "Talk to Percy",
+    "region": "Hub",
+    "category": [
+      "Help"
+    ],
+    "requires": "",
+    "place_item_category": ["Gifts"]
+  },
+  {
+    "name": "Talk to Madam Pomfrey",
+    "region": "Hub",
+    "category": [
+      "Help"
+    ],
+    "requires": "",
+    "place_item_category": ["Gifts"]
+  },
+  {
+    "name": "Talk to Ron (Willow)",
+    "region": "Willow",
+    "category": [
+      "Help"
+    ],
+    "requires": "|Lumos| AND (|Boosting| OR (|Flipendo| AND |Jumping|))",
+    "place_item_category": ["Gifts"]
+  },
+  {
+    "name": "Light a Gargoyle in a Spell Challenge",
+    "region": "Hub",
+    "category": [
+      "Small Tasks"
+    ],
+    "requires": "|Lumos| AND ((|Rictusempra Entry| AND |Rictusempra| AND |Flipendo|) OR (|Skurge Entry| AND |Skurge| AND (|Flipendo| OR (|Advanced Tech| AND |Jumping|))) OR (|Diffindo Entry| AND (|Diffindo| AND |Flipendo| AND |Rictusempra| AND |Jumping|) OR (|Boosting| AND |Diffindo|)) OR (|Spongify Entry| AND |Flipendo|))"
+  },
+  {
+    "name": "Free Peeves From a Chest",
+    "region": "Hub",
+    "category": [
+      "Small Tasks"
+    ],
+    "requires": "|Alohomora| AND (|Skurge Entry| AND |Skurge| AND (|Flipendo| OR (|Advanced Tech| AND |Jumping|))) OR (|Diffindo Entry| AND (|Diffindo| AND |Flipendo| AND |Rictusempra|) OR (|Boosting| AND (|Diffindo| OR |Jumping|))) OR (|Spongify Entry| AND |Jumping| AND |Spongify| AND |Skurge| AND |Flipendo|) OR (|Bicorn Entry| AND |Jumping| AND |Skurge| AND |Flipendo| AND |Rictusempra|) OR (|Gardens Entry| AND |Diffindo| AND ((|Boosting| AND |Rictusempra| AND |Flipendo|) OR |Jumping|))"
+  },
+  {
+    "name": "Tickle 2 Witch Statues",
+    "region": "Hub",
+    "category": [
+      "Small Tasks"
+    ],
+    "requires": "|Flipendo| AND (|Skurge Entry| AND |Skurge|) OR (|Slytherin Entry| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|))"
+  },
+  {
+    "name": "Tickle Hagrid's Pigs",
+    "region": "Hub",
+    "category": [
+      "Small Tasks"
+    ],
+    "requires": "|Rictusempra|"
+  },
+  {
+    "name": "Defeat a Spider",
+    "region": "Hub",
+    "category": [
+      "Small Tasks"
+    ],
+    "requires": "|Rictusempra| AND (|Spongify Entry| AND |Jumping| AND |Spongify| AND |Skurge| AND |Flipendo|) OR (|Boomslang Entry| AND |Diffindo| AND (|Jumping| OR |Boosting|)) OR (|Slytherin Entry| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|) AND |Alohomora|) OR (|Forest Entry| AND ((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping| AND |Spongify|) OR (|Jumping| AND |Boosting|)) AND |Diffindo| AND |Rictusempra|) OR (|Chamber Entry| AND |Spongify| AND |Diffindo|)"
+  },
+  {
+    "name": "EntryH: Bronze: Archibald Alderton (stained glass)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Spongify| AND |Jumping|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Mopsus (bean bonus room)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Skurge| AND |Diffindo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Bronze: Gunhilda of Gorsemor (potions class)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Laverne de Montmoreney (potions class)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Skurge| AND |Jumping|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Wendelin the Weird (slytherin)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos| AND |Diffindo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Gaspard Shingleton (gardens)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos| AND |Skurge|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Bowman Wright (mirror)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Diffindo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Bronze: Almerick Sawbridge (gryffindor)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Gwenog Jones (gryffindor)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Diffindo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Andros the Invincible (skurge)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "EntryH: Silver: Daisy Dodderidge (spongify)",
+    "region": "Entryhall Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Skurge|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Ethelred the Ever-Ready (floor)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Balfour Blane (charms)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Cassandra Vablatsky (bathroom)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Musidora Barkwith (DADA)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Jumping|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Burdock Muldoon (dumbledore)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Silver: Oswald Beamish (dumbledore)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Stairs: Silver: Queen Maeve (hospital)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Glover Hipworth (hospital)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Jumping|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Bronze: Mungo Bonham (hospital back)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Stairs: Silver: Chauncey Oldridge (hospital back)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Jumping| AND |Spongify|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Stairs: Silver: Artemisia Lufkin (across from hospital)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Diffindo| AND |Skurge| AND |Spongify|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Stairs: Silver: Alberta Toothill (ceiling)",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Spongify|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Grounds: Bronze: Jocunda Sykes (door left)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Spongify| AND |Jumping|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Grounds: Bronze: Norvel Twonk (diffindo)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Diffindo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Grounds: Silver: Mirabella Plunnkett (lumos secret)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND ((|Diffindo| AND |Lumos|) OR |Boosting|)",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Grounds: Silver: Dunbar Oglethorpe (pressure plate)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos|) OR |Boosting|)",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Grounds: Silver: Joscelind Wadcock (quidditch)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Grounds: Bronze: Havelock Sweeting (hagrid)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Jumping| OR |Boosting|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Grounds: Silver: Cyprian Youdle (herbology path)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Alohomora|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Grounds: Bronze: Gulliver Pokeby (herbology)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Grounds: Bronze: Beaumont Marjoribanks (boomslang)",
+    "region": "Grounds Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Diffindo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Rictu: Bronze: Herman Wintringham",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Rictu: Silver: Glenda Chittock",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Rictu: Bronze: Myron Wagtail",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Rictu: Silver: Gideon Crumb",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Rictu: Bronze: Heathcote Barbary",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Rictu: Bronze: Merton Graves",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Jumping| Or |Boosting|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Rictu: Bronze: Orsino Thruston",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Jumping| Or |Boosting|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Rictu: Silver: Kirley Duke",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Jumping| Or |Boosting|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Rictu: Silver: Donaghan Tremlett",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Jumping| Or |Boosting|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Skurge: Bronze: Bridget Wenlock",
+    "region": "Skurge Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Skurge: Bronze: Greta Catchlove",
+    "region": "Skurge Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Lumos| AND |Flipendo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Skurge: Bronze: Flavius Belby",
+    "region": "Skurge Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Flipendo| OR |Jumping|) AND |Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Skurge: Silver: Fulbert the Fearful",
+    "region": "Skurge Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Alohomora| AND |Flipendo| AND |Rictusempra|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Skurge: Silver: Gregory the Smarmy",
+    "region": "Skurge Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Flipendo| OR |Jumping|) AND |Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Skurge: Bronze: Roland Kegg",
+    "region": "Skurge Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Flipendo| OR |Jumping|) AND (|Jumping| OR |Boosting|) AND |Alohomora|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Diffin: Silver: Leopoldina Smethwyck",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Diffin: Bronze: Merwyn the Malicious",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo|)) AND |Diffindo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Diffin: Bronze: Uric the Oddball",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo|)) AND |Lumos|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Diffin: Silver: Derwent Shimpling",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo|)) AND |Lumos| AND |Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Diffin: Silver: Blenheim Stalk",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|)",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Diffin: Bronze: Elladora Ketteridge",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|)",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Diffin: Bronze: Lord Stoddard Withers",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Diffindo| AND (|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|))",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Diffin: Silver: Thaddeus Thurkell",
+    "region": "Diffindo Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Rictusempra| AND |Flipendo| AND (|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|))",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Spongy: Bronze: Merlin",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|)",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Spongy: Silver: Xavier Rastrick",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|) AND |Jumping|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Spongy: Bronze: Quong Po",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND |Lumos| AND |Flipendo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Spongy: Silver: Dymphna Furmage",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Rictusempra| AND |Flipendo| AND |Skurge|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Spongy: Silver: Felix Summerbee",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Spongy: Silver: Alberic Grunnion",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Skurge| AND |Flipendo|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Spongy: Bronze: Celestina Warbeck",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Skurge|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Spongy: Bronze: Hengist of Woodcroft",
+    "region": "Spongify Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Skurge| AND |Flipendo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Willow: Bronze: Hesper Starkey",
+    "region": "Willow Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos| AND |Flipendo| AND |Jumping|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Bicorn: Bronze: Glanmore Peakes",
+    "region": "Bicorn Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Bicorn: Silver: Crispin Cronk",
+    "region": "Bicorn Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Bicorn: Bronze: Cornelius Agrippa",
+    "region": "Bicorn Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Bicorn: Silver: Honoria Nutcombe",
+    "region": "Bicorn Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Bicorn: Bronze: Miranda Goshawk",
+    "region": "Bicorn Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Bicorn: Bronze: Grogan Stump",
+    "region": "Bicorn Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Boomsl: Silver: Sacharissa Tugwood",
+    "region": "Boomslang Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Lumos|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Boomsl: Bronze: Tilly Toke",
+    "region": "Boomslang Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Garden: Bronze: Roderick Plumpton",
+    "region": "Gardens Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Garden: Silver: Ignatia Wildsmith",
+    "region": "Gardens Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND |Lumos|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Garden: Bronze: Beatrix Bloxam",
+    "region": "Gardens Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|))",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Garden: Bronze: Devlin Whitehorn",
+    "region": "Gardens Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|)) AND (|Jumping| OR (|Rictusempra| AND |Flipendo|))",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Garden: Bronze: Edgar Stroulger",
+    "region": "Gardens Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|)) AND (|Jumping| OR (|Rictusempra| AND |Flipendo|)) AND |Flipendo|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Garden: Silver: Circe",
+    "region": "Gardens Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|)) AND (|Jumping| OR (|Rictusempra| AND |Flipendo|))",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Slyth: Silver: Elfrida Clagg",
+    "region": "Slytherin Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Slyth: Bronze: Adalbert Waffling",
+    "region": "Slytherin Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Slyth: Bronze: Justus Pilliwickle",
+    "region": "Slytherin Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Slyth: Silver: Morgan le Fay",
+    "region": "Slytherin Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Slyth: Bronze: Yardley Platt",
+    "region": "Slytherin Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Lumos|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Forest: Silver: Cliodine",
+    "region": "Forest Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "|Flipendo| AND |Jumping| AND ((|Lumos| AND |Spongify|) OR (|Boosting| AND |Diffindo|)",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Forest: Bronze: Gifford Ollerton",
+    "region": "Forest Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Forest: Bronze: Perpetua Fancourt",
+    "region": "Forest Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Forest: Silver: Gondine Oliphant",
+    "region": "Forest Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|",
+    "place_item": [
+      "Silver Card"
+    ]
+  },
+  {
+    "name": "Forest: Bronze: Dorcas Wellbeloved",
+    "region": "Forest Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND (|Flipendo| OR |Boosting|)",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Forest: Bronze: Newt Scamander",
+    "region": "Forest Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND (|Flipendo| OR |Boosting|)",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "Chamber2: Bronze: Wilfred Elphick",
+    "region": "Chamber 2 Cards",
+    "category": [
+      "Individual Cards",
+      "Cards-batched"
+    ],
+    "requires": "(|Rictusempra| OR |Boosting|) AND |Flipendo| AND |Jumping| AND |Lumos|",
+    "place_item": [
+      "Bronze Card"
+    ]
+  },
+  {
+    "name": "EntryH: Bronze: Archibald Alderton (stained glass) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Spongify| AND |Jumping|"
+  },
+  {
+    "name": "EntryH: Silver: Mopsus (bean bonus room) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Skurge| AND |Diffindo|"
+  },
+  {
+    "name": "EntryH: Bronze: Gunhilda of Gorsemor (potions class) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "EntryH: Silver: Laverne de Montmoreney (potions class) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Skurge| AND |Jumping|"
+  },
+  {
+    "name": "EntryH: Silver: Wendelin the Weird (slytherin) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos| AND |Diffindo|"
+  },
+  {
+    "name": "EntryH: Silver: Gaspard Shingleton (gardens) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos| AND |Skurge|"
+  },
+  {
+    "name": "EntryH: Silver: Bowman Wright (mirror) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Diffindo|"
+  },
+  {
+    "name": "EntryH: Bronze: Almerick Sawbridge (gryffindor) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "EntryH: Silver: Gwenog Jones (gryffindor) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Diffindo|"
+  },
+  {
+    "name": "EntryH: Silver: Andros the Invincible (skurge) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo|"
+  },
+  {
+    "name": "EntryH: Silver: Daisy Dodderidge (spongify) 2",
+    "region": "Entryhall Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Skurge|"
+  },
+  {
+    "name": "Stairs: Bronze: Ethelred the Ever-Ready (floor) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Stairs: Bronze: Balfour Blane (charms) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Stairs: Bronze: Cassandra Vablatsky (bathroom) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Stairs: Bronze: Musidora Barkwith (DADA) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Jumping|"
+  },
+  {
+    "name": "Stairs: Bronze: Burdock Muldoon (dumbledore) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Stairs: Silver: Oswald Beamish (dumbledore) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Flipendo|"
+  },
+  {
+    "name": "Stairs: Silver: Queen Maeve (hospital) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Flipendo|"
+  },
+  {
+    "name": "Stairs: Bronze: Glover Hipworth (hospital) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Jumping|"
+  },
+  {
+    "name": "Stairs: Bronze: Mungo Bonham (hospital back) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Stairs: Silver: Chauncey Oldridge (hospital back) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Jumping| AND |Spongify|"
+  },
+  {
+    "name": "Stairs: Silver: Artemisia Lufkin (across from hospital) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Diffindo| AND |Skurge| AND |Spongify|"
+  },
+  {
+    "name": "Stairs: Silver: Alberta Toothill (ceiling) 2",
+    "region": "Grand Staircase Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Spongify|"
+  },
+  {
+    "name": "Grounds: Bronze: Jocunda Sykes (door left) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Spongify| AND |Jumping|"
+  },
+  {
+    "name": "Grounds: Bronze: Norvel Twonk (diffindo) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Diffindo|"
+  },
+  {
+    "name": "Grounds: Silver: Mirabella Plunnkett (lumos secret) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND ((|Diffindo| AND |Lumos|) OR |Boosting|)"
+  },
+  {
+    "name": "Grounds: Silver: Dunbar Oglethorpe (pressure plate) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos|) OR |Boosting|)"
+  },
+  {
+    "name": "Grounds: Silver: Joscelind Wadcock (quidditch) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Grounds: Bronze: Havelock Sweeting (hagrid) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Jumping| OR |Boosting|"
+  },
+  {
+    "name": "Grounds: Silver: Cyprian Youdle (herbology path) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Alohomora|"
+  },
+  {
+    "name": "Grounds: Bronze: Gulliver Pokeby (herbology) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Grounds: Bronze: Beaumont Marjoribanks (boomslang) 2",
+    "region": "Grounds Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Diffindo|"
+  },
+  {
+    "name": "Rictu: Bronze: Herman Wintringham 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rictu: Silver: Glenda Chittock 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rictu: Bronze: Myron Wagtail 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rictu: Silver: Gideon Crumb 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rictu: Bronze: Heathcote Barbary 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rictu: Bronze: Merton Graves 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Jumping| Or |Boosting|"
+  },
+  {
+    "name": "Rictu: Bronze: Orsino Thruston 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Jumping| Or |Boosting|"
+  },
+  {
+    "name": "Rictu: Silver: Kirley Duke 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Jumping| Or |Boosting|"
+  },
+  {
+    "name": "Rictu: Silver: Donaghan Tremlett 2",
+    "region": "Rictusempra Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Jumping| Or |Boosting|"
+  },
+  {
+    "name": "Skurge: Bronze: Bridget Wenlock 2",
+    "region": "Skurge Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora|"
+  },
+  {
+    "name": "Skurge: Bronze: Greta Catchlove 2",
+    "region": "Skurge Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Lumos| AND |Flipendo|"
+  },
+  {
+    "name": "Skurge: Bronze: Flavius Belby 2",
+    "region": "Skurge Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Flipendo| OR |Jumping|) AND |Alohomora|"
+  },
+  {
+    "name": "Skurge: Silver: Fulbert the Fearful 2",
+    "region": "Skurge Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Alohomora| AND |Flipendo| AND |Rictusempra|"
+  },
+  {
+    "name": "Skurge: Silver: Gregory the Smarmy 2",
+    "region": "Skurge Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Flipendo| OR |Jumping|) AND |Flipendo|"
+  },
+  {
+    "name": "Skurge: Bronze: Roland Kegg 2",
+    "region": "Skurge Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Flipendo| OR |Jumping|) AND (|Jumping| OR |Boosting|) AND |Alohomora|"
+  },
+  {
+    "name": "Diffin: Silver: Leopoldina Smethwyck 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo|"
+  },
+  {
+    "name": "Diffin: Bronze: Merwyn the Malicious 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo|)) AND |Diffindo|"
+  },
+  {
+    "name": "Diffin: Bronze: Uric the Oddball 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo|)) AND |Lumos|"
+  },
+  {
+    "name": "Diffin: Silver: Derwent Shimpling 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo|)) AND |Lumos| AND |Flipendo|"
+  },
+  {
+    "name": "Diffin: Silver: Blenheim Stalk 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|)"
+  },
+  {
+    "name": "Diffin: Bronze: Elladora Ketteridge 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|)"
+  },
+  {
+    "name": "Diffin: Bronze: Lord Stoddard Withers 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Diffindo| AND (|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|))"
+  },
+  {
+    "name": "Diffin: Silver: Thaddeus Thurkell 2",
+    "region": "Diffindo Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Rictusempra| AND |Flipendo| AND (|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|))"
+  },
+  {
+    "name": "Spongy: Bronze: Merlin 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|)"
+  },
+  {
+    "name": "Spongy: Silver: Xavier Rastrick 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|) AND |Jumping|"
+  },
+  {
+    "name": "Spongy: Bronze: Quong Po 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND |Lumos| AND |Flipendo|"
+  },
+  {
+    "name": "Spongy: Silver: Dymphna Furmage 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Rictusempra| AND |Flipendo| AND |Skurge|"
+  },
+  {
+    "name": "Spongy: Silver: Felix Summerbee 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Flipendo|"
+  },
+  {
+    "name": "Spongy: Silver: Alberic Grunnion 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Skurge| AND |Flipendo|"
+  },
+  {
+    "name": "Spongy: Bronze: Celestina Warbeck 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Skurge|"
+  },
+  {
+    "name": "Spongy: Bronze: Hengist of Woodcroft 2",
+    "region": "Spongify Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| AND |Jumping|) AND (|Boosting| OR |Skurge| AND |Flipendo|) AND |Skurge| AND |Flipendo|"
+  },
+  {
+    "name": "Willow: Bronze: Hesper Starkey 2",
+    "region": "Willow Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos| AND |Flipendo| AND |Jumping|"
+  },
+  {
+    "name": "Bicorn: Bronze: Glanmore Peakes 2",
+    "region": "Bicorn Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bicorn: Silver: Crispin Cronk 2",
+    "region": "Bicorn Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bicorn: Bronze: Cornelius Agrippa 2",
+    "region": "Bicorn Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|"
+  },
+  {
+    "name": "Bicorn: Silver: Honoria Nutcombe 2",
+    "region": "Bicorn Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|"
+  },
+  {
+    "name": "Bicorn: Bronze: Miranda Goshawk 2",
+    "region": "Bicorn Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|"
+  },
+  {
+    "name": "Bicorn: Bronze: Grogan Stump 2",
+    "region": "Bicorn Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Rictusempra|"
+  },
+  {
+    "name": "Boomsl: Silver: Sacharissa Tugwood 2",
+    "region": "Boomslang Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Lumos|"
+  },
+  {
+    "name": "Boomsl: Bronze: Tilly Toke 2",
+    "region": "Boomslang Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Garden: Bronze: Roderick Plumpton 2",
+    "region": "Gardens Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Garden: Silver: Ignatia Wildsmith 2",
+    "region": "Gardens Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND |Lumos|"
+  },
+  {
+    "name": "Garden: Bronze: Beatrix Bloxam 2",
+    "region": "Gardens Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|))"
+  },
+  {
+    "name": "Garden: Bronze: Devlin Whitehorn 2",
+    "region": "Gardens Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|)) AND (|Jumping| OR (|Rictusempra| AND |Flipendo|))"
+  },
+  {
+    "name": "Garden: Bronze: Edgar Stroulger 2",
+    "region": "Gardens Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|)) AND (|Jumping| OR (|Rictusempra| AND |Flipendo|)) AND |Flipendo|"
+  },
+  {
+    "name": "Garden: Silver: Circe 2",
+    "region": "Gardens Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Diffindo| AND (|Boosting| OR |Jumping|)) AND (|Boosting| OR (|Rictusempra| AND |Flipendo|)) AND (|Jumping| OR (|Rictusempra| AND |Flipendo|))"
+  },
+  {
+    "name": "Slyth: Silver: Elfrida Clagg 2",
+    "region": "Slytherin Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Slyth: Bronze: Adalbert Waffling 2",
+    "region": "Slytherin Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos|"
+  },
+  {
+    "name": "Slyth: Bronze: Justus Pilliwickle 2",
+    "region": "Slytherin Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos|"
+  },
+  {
+    "name": "Slyth: Silver: Morgan le Fay 2",
+    "region": "Slytherin Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos|"
+  },
+  {
+    "name": "Slyth: Bronze: Yardley Platt 2",
+    "region": "Slytherin Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Lumos|"
+  },
+  {
+    "name": "Forest: Silver: Cliodine 2",
+    "region": "Forest Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "|Flipendo| AND |Jumping| AND ((|Lumos| AND |Spongify|) OR (|Boosting| AND |Diffindo|)"
+  },
+  {
+    "name": "Forest: Bronze: Gifford Ollerton 2",
+    "region": "Forest Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|"
+  },
+  {
+    "name": "Forest: Bronze: Perpetua Fancourt 2",
+    "region": "Forest Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|"
+  },
+  {
+    "name": "Forest: Silver: Gondine Oliphant 2",
+    "region": "Forest Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|"
+  },
+  {
+    "name": "Forest: Bronze: Dorcas Wellbeloved 2",
+    "region": "Forest Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND (|Flipendo| OR |Boosting|)"
+  },
+  {
+    "name": "Forest: Bronze: Newt Scamander 2",
+    "region": "Forest Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND (|Flipendo| OR |Boosting|)"
+  },
+  {
+    "name": "Chamber2: Bronze: Wilfred Elphick 2",
+    "region": "Chamber 2 Cards",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Rictusempra| OR |Boosting|) AND |Flipendo| AND |Jumping| AND |Lumos|"
+  },
+  {
+    "name": "Gold: Bertie Bott",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|))"
+  },
+  {
+    "name": "Gold: Dumbledore",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|))"
+  },
+  {
+    "name": "Gold: Godric Gryffindor",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo| AND |Jumping|"
+  },
+  {
+    "name": "Gold: Herpo the Foul",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo|"
+  },
+  {
+    "name": "Gold: Salazar Slytherin",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo| AND |Alohomora|"
+  },
+  {
+    "name": "Gold: Helga Hufflepuff",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora|"
+  },
+  {
+    "name": "Gold: Montague Knightley",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+  },
+  {
+    "name": "Gold: Paracelsus",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+  },
+  {
+    "name": "Gold: Carlotta Pinkstone",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+  },
+  {
+    "name": "Gold: Rowena Ravenclaw",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+  },
+  {
+    "name": "Gold: Harry Potter",
+    "region": "GWC Challenge",
+    "category": [
+      "Cardsanity"
+    ],
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+  }
+]

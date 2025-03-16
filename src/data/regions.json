@@ -1,11 +1,159 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "ExampleRegion":{
-        "connects_to": ["Second Region"],
-        "starting": true
-    },
-    "Second Region": {
-        "requires": "|@Characters:1|",
-        "connects_to": []
-    }
+  "Hub": {
+    "starting": true,
+    "connects_to": [
+      "Rictusempra",
+      "Skurge",
+      "Diffindo",
+      "Spongify",
+      "Gryffindor",
+      "AOL Demo",
+      "Willow",
+      "Bicorn",
+      "Boomslang",
+      "Gardens",
+      "Slytherin",
+      "Forest",
+      "Chamber 1",
+      "GWC Challenge",
+      "Quidditch",
+      "Great Hall",
+      "Entryhall Cards",
+      "Grand Staircase Cards",
+      "Grounds Cards"
+    ],
+    "requires": []
+  },
+  "Rictusempra": {
+    "connects_to": ["Rictusempra Cards"],
+    "requires": "|Rictusempra Entry|"
+  },
+  "Skurge": {
+    "connects_to": ["Skurge Cards"],
+    "requires": "|Skurge Entry|"
+  },
+  "Diffindo": {
+    "connects_to": ["Diffindo Cards"],
+    "requires": "|Diffindo Entry|"
+  },
+  "Spongify": {
+    "connects_to": ["Spongify Cards"],
+    "requires": "|Spongify Entry|"
+  },
+  "Gryffindor": {
+    "connects_to": [],
+    "requires": "|Gryffindor Entry|"
+  },
+  "AOL Demo": {
+    "connects_to": [],
+    "requires": "|AOL Demo Entry|"
+  },
+  "Willow": {
+    "connects_to": ["Willow Cards"],
+    "requires": "|Willow Entry| AND |Jumping| AND (|Spongify| OR |Boosting|)"
+  },
+  "Bicorn": {
+    "connects_to": ["Bicorn Cards"],
+    "requires": "|Bicorn Entry| AND |Skurge|"
+  },
+  "Boomslang": {
+    "connects_to": ["Boomslang Cards"],
+    "requires": "|Boomslang Entry| AND |Diffindo|"
+  },
+  "Gardens": {
+    "connects_to": ["Gardens Cards"],
+    "requires": "|Gardens Entry|"
+  },
+  "Slytherin": {
+    "connects_to": ["Slytherin Cards"],
+    "requires": "|Slytherin Entry|"
+  },
+  "Forest": {
+    "connects_to": ["Aragog", "Forest Cards"],
+    "requires": "|Forest Entry|"
+  },
+  "Aragog": {
+    "connects_to": [],
+    "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|)) AND |Diffindo| AND |Rictusempra| AND |Spongify| AND |Flipendo|"
+  },
+  "Chamber 1": {
+    "connects_to": ["Chamber 2"],
+    "requires": "|Chamber Entry| AND |Alohomora|"
+  },
+  "Chamber 2": {
+    "connects_to": ["Chamber Snake", "Chamber 2 Cards"],
+    "requires": "|Skurge| AND |Spongify| AND |Diffindo| AND |Flipendo| AND (|Jumping| OR |Boosting|)"
+  },
+  "Chamber Snake": {
+    "connects_to": [],
+    "requires": "|Skurge| AND |Spongify| AND |Diffindo| AND |Flipendo| AND ((|Jumping| AND |Rictusempra|) OR |Boosting|)"
+  },
+  "GWC Challenge": {
+    "connects_to": [],
+    "requires": "|GWC Challenge Entry|"
+  },
+  "Quidditch": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Great Hall": {
+    "connects_to": [],
+    "requires": "|Great Hall Entry|"
+  },
+  "Rictusempra Cards": {
+    "connects_to": [],
+    "requires": "|Rictusempra| AND |Flipendo| AND |Alohomora|"
+  },
+  "Skurge Cards": {
+    "connects_to": [],
+    "requires": "|Skurge|"
+  },
+  "Diffindo Cards": {
+    "connects_to": [],
+    "requires": "|Alohomora| AND (|Jumping| OR |Diffindo|)"
+  },
+  "Spongify Cards": {
+    "connects_to": [],
+    "requires": "|Alohomora|"
+  },
+  "Willow Cards": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Bicorn Cards": {
+    "connects_to": [],
+    "requires": "|Alohomora| AND |Jumping| AND |Skurge| AND (|Flipendo| OR |Boosting|)"
+  },
+  "Boomslang Cards": {
+    "connects_to": [],
+    "requires": "|Diffindo| AND |Alohomora| AND (|Jumping| OR |Boosting|)"
+  },
+  "Gardens Cards": {
+    "connects_to": [],
+    "requires": "|Alohomora|"
+  },
+  "Slytherin Cards": {
+    "connects_to": [],
+    "requires": "|Diffindo| AND |Flipendo| AND |Alohomora| AND |Jumping|"
+  },
+  "Forest Cards": {
+    "connects_to": [],
+    "requires": "|Alohomora|"
+  },
+  "Chamber 2 Cards": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Entryhall Cards": {
+    "connects_to": [],
+    "requires": "|Alohomora|"
+  },
+  "Grand Staircase Cards": {
+    "connects_to": [],
+    "requires": ""
+  },
+  "Grounds Cards": {
+    "connects_to": [],
+    "requires": ""
+  }
 }

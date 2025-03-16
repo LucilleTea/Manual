@@ -1,9 +1,41 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Example Logic only category": {
-        "hidden": true
-    },
-    "Example Yaml-option category": {
-        "yaml_option": ["DLC_enabled"]
-    }
+  "Glitches": {
+    "yaml_option": ["Use_Glitched_Progression"],
+    "hidden": true
+  },
+  "Cards-batched": {
+    "yaml_option": ["Use_Card_Milestones"],
+    "hidden": true
+  },
+  "Cardsanity": {
+    "yaml_option": ["Use_Cardsanity"]
+  },
+  "Cardsanity_filler": {
+    "yaml_option": ["Use_Cardsanity"],
+    "hidden": true
+  },
+  "Bigger_gift": {
+    "hidden": true
+  },
+  "Quidditch": {
+    "yaml_option": ["Use_Quidditch"],
+    "hidden": true
+  },
+  "Duels": {
+    "yaml_option": ["Use_Duelling"],
+    "hidden": true
+  },
+  "AOL Demo": {
+    "yaml_option": ["Use_AOL_Demo"],
+    "hidden": true
+  },
+  "Small Tasks": {
+    "yaml_option": ["Use_Small_Tasks"]
+  },
+  "Help": {
+    "yaml_option": ["Use_Handouts"]
+  },
+  "Traps": {
+    "yaml_option": ["Use_Traps"]
+  }
 }
