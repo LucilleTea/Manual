@@ -30,11 +30,13 @@ You will need some custom keybinds to give yourself bean/potion gifts, and enter
 In your documents folder go to `Harry Potter II`, and edit User.ini. You can set these binds to any keys listed, here is example syntax:
 ```
 F11=set hgame.HPConsole bdebugmode true | hgame.baseconsole bdebugmode true
-F12=set hgame.HPConsole bdebugmode false | hgame.baseconsole bdebugmode false```
+F12=set hgame.HPConsole bdebugmode false | hgame.baseconsole bdebugmode false
+```
 To enable and disable debug.
 ```
 Comma=addpotions 1
-Period=addbeans 50```
+Period=addbeans 50
+```
 To bind gifts.
 To change difficulty, have debug mode enabled and go to the input settings menu.
 To load the hub map, have debug mode enabled and press F4 to open the level selector, choosing Entryhall_hub.unr.
