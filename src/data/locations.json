@@ -22,7 +22,7 @@
     "category": [
       "Challenge Stars"
     ],
-    "requires": "|Rictusempra| AND |Flipendo| AND |Lumos| AND (|Boosting| OR |Jumping|)"
+    "requires": "|Rictusempra| AND |Flipendo| AND |Lumos| AND |Alohomora| AND (|Boosting| OR |Jumping|)"
   },
   {
     "name": "Skurge Complete",
@@ -653,7 +653,7 @@
       "Individual Cards",
       "Cards-batched"
     ],
-    "requires": "|Skurge|",
+    "requires": "|Skurge| AND |Jumping|",
     "place_item": [
       "Silver Card"
     ]
@@ -845,7 +845,7 @@
       "Individual Cards",
       "Cards-batched"
     ],
-    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos|) OR |Boosting|)",
+    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos|) OR (|Boosting| AND |Jumping|)",
     "place_item": [
       "Silver Card"
     ]
@@ -1692,7 +1692,7 @@
     "category": [
       "Cardsanity"
     ],
-    "requires": "|Skurge|"
+    "requires": "|Skurge| AND |Jumping|"
   },
   {
     "name": "Stairs: Bronze: Ethelred the Ever-Ready (floor) 2",
@@ -1820,7 +1820,7 @@
     "category": [
       "Cardsanity"
     ],
-    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos|) OR |Boosting|)"
+    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos|) OR (|Boosting| AND |Jumping|)"
   },
   {
     "name": "Grounds: Silver: Joscelind Wadcock (quidditch) 2",
@@ -2372,7 +2372,7 @@
     "category": [
       "Cardsanity"
     ],
-    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora|"
+    "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Alohomora|"
   },
   {
     "name": "Gold: Montague Knightley",
