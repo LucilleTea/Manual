@@ -234,7 +234,7 @@
     "progression": true
   },
   {
-    "count": "5",
+    "count": "7",
     "name": "Free Potion",
     "category": [
       "Gifts"
@@ -242,7 +242,7 @@
     "filler": true
   },
   {
-    "count": "30",
+    "count": "35",
     "name": "Free 50 Beans",
     "category": [
       "Cardsanity_filler",
@@ -251,7 +251,7 @@
     "filler": true
   },
   {
-    "count": "7",
+    "count": "10",
     "name": "Free 100 Beans",
     "category": [
       "Gifts"
