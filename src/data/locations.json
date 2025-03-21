@@ -845,7 +845,7 @@
       "Individual Cards",
       "Cards-batched"
     ],
-    "requires": "|Alohomora| AND |Spongify| AND (((|Diffindo| AND |Lumos| AND (|Boosting| OR |Jumping|)) OR (|Boosting| AND |Jumping|))",
+    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos| AND (|Boosting| OR |Jumping|)) OR (|Boosting| AND |Jumping|))",
     "place_item": [
       "Silver Card"
     ]
@@ -1820,7 +1820,7 @@
     "category": [
       "Cardsanity"
     ],
-    "requires": "|Alohomora| AND |Spongify| AND (((|Diffindo| AND |Lumos| AND (|Boosting| OR |Jumping|)) OR (|Boosting| AND |Jumping|))"
+    "requires": "|Alohomora| AND |Spongify| AND ((|Diffindo| AND |Lumos| AND (|Boosting| OR |Jumping|)) OR (|Boosting| AND |Jumping|))"
   },
   {
     "name": "Grounds: Silver: Joscelind Wadcock (quidditch) 2",
